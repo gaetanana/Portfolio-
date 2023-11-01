@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url("../img/walPaper.png");
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#contenueAvecFooter {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ajoutez cette propriété pour garantir que le conteneur occupe au moins la hauteur de la fenêtre */
+}
+
+#contenueContact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /* largeur obligatoire pour être centré */
+    text-align: center;
+    flex-grow: 1;
+    padding: 50px;
+
+}
+
+h1 {
+    padding-top: 30px; /* Suppression du padding-top */
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contactLigne1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+
+}
+
+#contactGauche {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    width: 25%;
+}
+#contactGauche p {
+    word-break: break-word;
+}
+
+#contactMilieu {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    width: 25%;
+}
+#contactDroite {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    width: 25%;
+}
+
+.imgIcone {
+    width: 64px; /* Vous pouvez ajuster la largeur de l'icône selon vos préférences */
+    height: auto; /* Cette propriété garantit que l'icône conserve son ratio hauteur/largeur */
+    display: block; /* Cette propriété permet de centrer l'icône à l'aide de 'margin' */
+    margin: 0 auto 10px; /* Centrer l'icône et ajouter une marge en bas pour l'espacement */
+}
+
+#formulaireContact {
+
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#formulaireContact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#formulaireContact input[type="text"],
+#formulaireContact input[type="email"],
+#formulaireContact textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+#formulaireContact input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formulaireContact input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 150px;
+    display: none;
+    background-color: rgb(36, 132, 143); /* Changer la couleur de fond ici */
+    color: #fff;
+    font-size: 30px; /* Changer la taille de la flèche ici */
+    text-align: center;
+    line-height: 50px; /* Changer la hauteur de la flèche ici */
+    width: 50px; /* Changer la largeur de la flèche ici */
+    height: 50px; /* Changer la hauteur de la flèche ici */
+    border-radius: 25px; /* Changer le rayon de la bordure ici */
+    text-decoration: none;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+.scrollTop:hover {
+    opacity: 1;
+}

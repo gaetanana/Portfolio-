@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../web/css/navBar.css">
+    <link rel="stylesheet" href="../web/css/contacte.css">
+    <link rel="stylesheet" href="../web/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<header>
+    <script src="../web/js/main.js"></script>
+    <nav>
+        <div>
+            <a href="../web/acceuil.html"><img src="../web/img/iconePortfolio.png" alt="logo" id="logoSite"></a>
+            <ul id="listeNav">
+                <li>
+                    <p class="paddingLien"><a class="lienNavBar" href="../pages/biographie.html">Biographie</a></p>
+                </li>
+                <div id="progress-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <li class="deroulant">
+                    <p class="paddingLien"><a class="lienNavBar" href="#">Projets <i id="flecheProjet" class="fas fa-caret-down"></i></a></p>
+                    <ul class="sous">
+                        <li>
+                            <a href="projets/site-ecommerce.html">Site Ecommerce</a>
+                        </li>
+                        <li>
+                            <a href="projets/E-vote.html">E-vote</a>
+                        </li>
+                        <li>
+                            <a href="projets/AventuriersDuRails.html">Aventuriers du rail</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="deroulant">
+                    <p class="paddingLien"><a class="lienNavBar" href="#">Évènements <i id="flecheEvenement" class="fas fa-caret-down"></i></a></p>
+                    <ul class="sous">
+                        <li>
+                            <a href="evenements/NuitInfo.html">Nuit de l'info</a>
+                        </li>
+                        <li>
+                            <a href="evenements/ForumsStageAlternancs.html">Forum stage/alternance</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="paddingLien"><a class="lienNavBar" href="../pages/contact.html">Contact</a></p>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div id="contenueContact">
+    <h1>Mes contacts</h1>
+    <div id="contactLigne1">
+        <div id="contactGauche">
+            <img class="imgIcone" src="../web/img/iconeMail.png" alt="mail">
+            <h2>Adresse mail</h2>
+            <p>gaetan.gonfiantini@etu.umontpellier.fr</p>
+        </div>
+        <div id="contactMilieu">
+            <img class="imgIcone" src="../web/img/iconeTelephone.png" alt="telephone">
+            <h2>Numéro de téléphone</h2>
+            <p>07 81 20 68 41</p>
+        </div>
+        <div id="contactDroite">
+            <img class="imgIcone" src="../web/img/lieuDeTravail.png" alt="lieu">
+            <h2>Lieu de travail</h2>
+            <p>IUT de Montpellier</p>
+        </div>
+    </div>
+    <div id="formulaireContact">
+        <h2>Envoyez-moi un message</h2>
+        <form action="mailto:gaetan.gonfiantini@etu.umontpellier.fr" method="post" enctype="text/plain">
+            <label for="prenom">Prénom :</label> <input type="text" id="prenom" name="prenom" required=""><br>
+            <label for="nom">Nom de famille :</label> <input type="text" id="nom" name="nom" required=""><br>
+            <label for="email">Adresse e-mail :</label> <input type="email" id="email" name="email" required=""><br>
+            <label for="objet">Objet :</label> <input type="text" id="objet" name="objet" required=""><br>
+            <label for="message">Contenu du mail :</label>
+            <textarea id="message" name="message" rows="4" required=""></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</div>
+<footer>
+    <div id="footerGauche">
+        <p>© 2023 - Portfolio de <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABtan-gonfiantini-402798216/">Gaëtan Gonfiantini</a></p>
+    </div>
+    <div id="footerDroite">
+        <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABtan-gonfiantini-402798216/"><img src="../web/img/linkdin.png" alt="linkedin"></a> <a target="_blank" href="https://github.com/gaetanana"><img src="../web/img/gitHub.png" alt="github"></a>
+    </div>
+</footer>
+<a href="#" class="scrollTop" title="Retour en haut">&uarr;</a>
+</body>
+</html>

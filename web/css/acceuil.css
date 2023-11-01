@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url("../img/walPaper.png");
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+#contenueAvecFooter {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ajoutez cette propriété pour garantir que le conteneur occupe au moins la hauteur de la fenêtre */
+}
+#contenueAcceuil {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    flex-grow: 1;
+    padding: 50px;
+}
+
+
+#cochon {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    padding-top: 30px; /* Suppression du padding-top */
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.paragrapheContenue {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    color: #333;
+
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 150px;
+    display: none;
+    background-color: rgb(36, 132, 143); /* Changer la couleur de fond ici */
+    color: #fff;
+    font-size: 30px; /* Changer la taille de la flèche ici */
+    text-align: center;
+    line-height: 50px; /* Changer la hauteur de la flèche ici */
+    width: 50px; /* Changer la largeur de la flèche ici */
+    height: 50px; /* Changer la hauteur de la flèche ici */
+    border-radius: 25px; /* Changer le rayon de la bordure ici */
+    text-decoration: none;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+.scrollTop:hover {
+    opacity: 1;
+}

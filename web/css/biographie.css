@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url("../img/walPaper.png");
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#contenueBiographie {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /* largeur obligatoire pour être centré */
+    text-align: center;
+    flex-grow: 1;
+    padding: 50px;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#contenueBiographie p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.download-btn {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 20px 30px;
+}
+
+.download-btn:hover {
+    background-color: #555;
+}
+
+#magrosseTete {
+    width: 282px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+#moiSurUntracteur{
+    width: 263px;
+    height: 350px;
+    padding-left: 40px;
+}
+#moiSurUnStade{
+    width: 300px;
+    height: 390px;
+    padding-left: 40px;
+}
+
+.text-box {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajoutez une ombre */
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-image-container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:20px; /* ajoute un espacement entre les conteneurs */
+}
+
+.text-image-container p {
+    flex-grow: 1;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.side-image {
+    width: 100px; /* ajustez la taille de l'image selon vos préférences */
+}
+
+/* Ajout de l'effet de zoom sur les images spécifiques de la biographie */
+#moiSurUntracteur, #moiSurUnStade {
+    transition: transform 0.3s;
+}
+
+ #moiSurUntracteur:hover, #moiSurUnStade:hover {
+    transform: scale(1.2);
+}
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 150px;
+    display: none;
+    background-color: rgb(36, 132, 143); /* Changer la couleur de fond ici */
+    color: #fff;
+    font-size: 30px; /* Changer la taille de la flèche ici */
+    text-align: center;
+    line-height: 50px; /* Changer la hauteur de la flèche ici */
+    width: 50px; /* Changer la largeur de la flèche ici */
+    height: 50px; /* Changer la hauteur de la flèche ici */
+    border-radius: 25px; /* Changer le rayon de la bordure ici */
+    text-decoration: none;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+.scrollTop:hover {
+    opacity: 1;
+}
