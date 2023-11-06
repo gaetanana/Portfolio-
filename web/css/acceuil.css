@@ -36,6 +36,7 @@ body {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 h1 {
     padding-top: 30px; /* Suppression du padding-top */
@@ -62,9 +63,7 @@ h2 {
     padding-right: 40px;
     background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
     color: #333;
-
 }
-
 .scrollTop {
     position: fixed;
     bottom: 70px;
