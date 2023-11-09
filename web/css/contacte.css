@@ -31,10 +31,20 @@ body {
 }
 
 h1 {
-    padding-top: 30px; /* Suppression du padding-top */
     font-size: 44px;
     font-weight: bold;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+    border-radius: 5px;
+
 }
 
 #contactLigne1 {

@@ -1,3 +1,10 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-image: url("../img/walPaper.png");
@@ -27,8 +34,6 @@ body {
     flex-grow: 1;
     padding: 50px;
 }
-
-
 #cochon {
     width: 400px;
     height: 400px;
@@ -37,12 +42,29 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 50%;
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+
 }
 h1 {
-    padding-top: 30px; /* Suppression du padding-top */
+
     font-size: 44px;
     font-weight: bold;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+
+    border-radius: 5px;
+
 }
 
 h2 {
@@ -50,6 +72,19 @@ h2 {
     font-weight: bold;
     text-align: center;
     margin: 30px auto;
+
+    background: rgba(255, 255, 255, 0.7);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+
+    border-radius: 5px;
+
 }
 
 .paragrapheContenue {
@@ -63,6 +98,7 @@ h2 {
     padding-right: 40px;
     background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
     color: #333;
+    border-radius: 5px;
 }
 .scrollTop {
     position: fixed;
