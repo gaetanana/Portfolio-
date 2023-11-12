@@ -25,7 +25,9 @@
                     <div id="progress-bar"></div>
                 </div>
                 <li class="deroulant">
-                    <p class="paddingLien"><a class="lienNavBar" href="#">Projets <i id="flecheProjet" class="fas fa-caret-down"></i></a></p>
+                    <p class="paddingLien"><a class="lienNavBar" href="#">Projets <i id="flecheProjet"
+                                                                                     class="fas fa-caret-down"></i></a>
+                    </p>
                     <ul class="sous">
                         <li>
                             <a href="projets/site-ecommerce.html">Site Ecommerce</a>
@@ -39,7 +41,9 @@
                     </ul>
                 </li>
                 <li class="deroulant">
-                    <p class="paddingLien"><a class="lienNavBar" href="#">Évènements <i id="flecheEvenement" class="fas fa-caret-down"></i></a></p>
+                    <p class="paddingLien"><a class="lienNavBar" href="#">Évènements <i id="flecheEvenement"
+                                                                                        class="fas fa-caret-down"></i></a>
+                    </p>
                     <ul class="sous">
                         <li>
                             <a href="evenements/NuitInfo.html">Nuit de l'info</a>
@@ -58,7 +62,7 @@
 </header>
 <div id="contenueContact">
     <h1>Mes contacts</h1>
-    <div id="contactLigne1">
+    <div id="contacts">
         <div id="contactGauche">
             <img class="imgIcone" src="../web/img/iconeMail.png" alt="mail">
             <h2>Adresse mail</h2>
@@ -74,26 +78,36 @@
             <h2>Lieu de travail</h2>
             <p>IUT de Montpellier</p>
         </div>
+
     </div>
+
     <div id="formulaireContact">
-        <h2>Envoyez-moi un message</h2>
-        <form action="mailto:gaetan.gonfiantini@etu.umontpellier.fr" method="post" enctype="text/plain">
-            <label for="prenom">Prénom :</label> <input type="text" id="prenom" name="prenom" required=""><br>
-            <label for="nom">Nom de famille :</label> <input type="text" id="nom" name="nom" required=""><br>
-            <label for="email">Adresse e-mail :</label> <input type="email" id="email" name="email" required=""><br>
-            <label for="objet">Objet :</label> <input type="text" id="objet" name="objet" required=""><br>
-            <label for="message">Contenu du mail :</label>
-            <textarea id="message" name="message" rows="4" required=""></textarea><br>
+        <h2>Contactez-moi</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
             <input type="submit" value="Envoyer">
         </form>
+
     </div>
 </div>
 <footer>
     <div id="footerGauche">
-        <p>© 2023 - Portfolio de <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABtan-gonfiantini-402798216/">Gaëtan Gonfiantini</a></p>
+        <p>© 2023 - Portfolio de <a target="_blank"
+                                    href="https://www.linkedin.com/in/ga%C3%ABtan-gonfiantini-402798216/">Gaëtan
+            Gonfiantini</a></p>
     </div>
     <div id="footerDroite">
-        <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABtan-gonfiantini-402798216/"><img src="../web/img/linkdin.png" alt="linkedin"></a> <a target="_blank" href="https://github.com/gaetanana"><img src="../web/img/gitHub.png" alt="github"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/ga%C3%ABtan-gonfiantini-402798216/"><img
+                src="../web/img/linkdin.png" alt="linkedin"></a> <a target="_blank" href="https://github.com/gaetanana"><img
+            src="../web/img/gitHub.png" alt="github"></a>
     </div>
 </footer>
 <a href="#" class="scrollTop" title="Retour en haut">&uarr;</a>
