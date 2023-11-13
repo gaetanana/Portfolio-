@@ -17,13 +17,13 @@ body {
 #contenueAvecFooter {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ajoutez cette propriété pour garantir que le conteneur occupe au moins la hauteur de la fenêtre */
+    min-height: 100vh;
 }
 
 #contenueContact {
     margin-left: auto;
     margin-right: auto;
-    width: 60%; /* largeur obligatoire pour être centré */
+    width: 60%;
     text-align: center;
     flex-grow: 1;
     padding: 50px;
@@ -62,7 +62,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    background-color: rgba(255, 255, 255, 0.7);
     width: 25%;
 }
 #contactGauche p {
@@ -75,7 +75,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    background-color: rgba(255, 255, 255, 0.7);
     width: 25%;
 }
 #contactDroite {
@@ -84,7 +84,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    background-color: rgba(255, 255, 255, 0.7);
     width: 25%;
 }
 
@@ -110,7 +110,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    background-color: rgba(255, 255, 255, 0.7);
     width: 25%;
 }
 
@@ -120,13 +120,21 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    background-color: rgba(255, 255, 255, 0.7);
     width: 25%;
 }
 .liens{
     text-decoration: none;
     color: #333;
 
+}
+.liens:hover{
+    text-decoration: none;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+    padding: 7px;
 }
 
 
@@ -135,14 +143,14 @@ h1 {
     bottom: 70px;
     right: 150px;
     display: none;
-    background-color: rgb(36, 132, 143); /* Changer la couleur de fond ici */
+    background-color: rgb(36, 132, 143);
     color: #fff;
-    font-size: 30px; /* Changer la taille de la flèche ici */
+    font-size: 30px;
     text-align: center;
-    line-height: 50px; /* Changer la hauteur de la flèche ici */
-    width: 50px; /* Changer la largeur de la flèche ici */
-    height: 50px; /* Changer la hauteur de la flèche ici */
-    border-radius: 25px; /* Changer le rayon de la bordure ici */
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
     text-decoration: none;
     opacity: 0.7;
     z-index: 1000;
