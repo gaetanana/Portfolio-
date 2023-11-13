@@ -95,44 +95,38 @@ h1 {
     margin: 0 auto 10px;
 }
 
-#formulaireContact {
+#mesReseauxProfessionnelles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
 
-    text-align: left;
-    padding: 20px;
+}
+
+#gitHub {
+    text-align: center;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    width: 25%;
 }
 
-#formulaireContact label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-#formulaireContact input[type="text"],
-#formulaireContact input[type="email"],
-#formulaireContact textarea {
-    width: 100%;
-    padding: 6px;
+#linkdin {
+    text-align: center;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    resize: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    width: 25%;
 }
+.liens{
+    text-decoration: none;
+    color: #333;
 
-#formulaireContact input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#formulaireContact input[type="submit"]:hover {
-    background-color: #45a049;
 }
 
 
