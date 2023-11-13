@@ -17,7 +17,7 @@ body {
 #contenueBiographie {
     margin-left: auto;
     margin-right: auto;
-    width: 60%; /* largeur obligatoire pour être centré */
+    width: 60%;
     text-align: center;
     flex-grow: 1;
     padding: 50px;
@@ -52,8 +52,8 @@ h2 {
     margin: 30px auto;
 
     background: rgba(255, 255, 255, 0.7);
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
