@@ -1,0 +1,127 @@
+/* Styles Communs */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url("../../img/walPaper.png");
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#contenueBiographie, #contenueForum, #contenueNuitDeLinfo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    flex-grow: 1;
+    padding: 50px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    margin: 30px 60px;
+    padding: 10px 40px;
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 44px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+h2 {
+    font-size: 34px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.text-box {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.text-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text-image-container p {
+    flex-grow: 1;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.side-image, #imgStageDating, #imgAlternance, #imgNuitDeLinfo, #imgDefis {
+    width: 100%;
+    height: auto;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 150px;
+    display: none;
+    background-color: rgb(36, 132, 143);
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+.scrollTop:hover {
+    opacity: 1;
+}
+
+/* Styles Uniques pour NuitInfo.css */
+#divBouton, #divImgDefis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.text-box button:hover {
+    background-color: #45a049;
+}
