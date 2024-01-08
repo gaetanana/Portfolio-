@@ -49,7 +49,7 @@ h2 {
 }
 
 /* Styles Spécifiques aux Projets */
-#contenueSiteEcommerce, #contenueEvote, #conteunueAventurierDuRail {
+#contenueSiteEcommerce, #contenueEvote, #conteunueAventurierDuRail,#contenueSaveSync {
     margin: 0 auto;
     padding: 50px;
     width: 70%;
