@@ -24,12 +24,12 @@ body {
 #contenueAvecFooter {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ajoutez cette propriété pour garantir que le conteneur occupe au moins la hauteur de la fenêtre */
+    min-height: 100vh;
 }
 #contenueAcceuil {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
     text-align: center;
     flex-grow: 1;
     padding: 50px;
@@ -75,8 +75,8 @@ h2 {
     margin: 30px auto;
 
     background: rgba(255, 255, 255, 0.92);
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 320px;
+    margin-right: 320px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
@@ -93,7 +93,7 @@ h2 {
     font-size: 18px;
     line-height: 1.7;
     text-align: justify;
-    margin: 30px auto;
+    margin: 50px auto;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
