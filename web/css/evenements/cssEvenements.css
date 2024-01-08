@@ -1,4 +1,9 @@
-/* Styles Communs */
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-image: url("../../img/walPaper.png");
@@ -15,13 +20,19 @@ body {
     min-height: 100vh;
 }
 
+
 #contenueBiographie, #contenueForum, #contenueNuitDeLinfo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    width: 70%;
+    max-width: 1200px;
     text-align: center;
     flex-grow: 1;
-    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h2 {
@@ -36,31 +47,42 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 44px;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    margin-right: 60px;
-    margin-left: 60px;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    margin: 30px 80px;
+    padding: 20px 120px;
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+    border-radius: 5px;
+    text-align: center;
+}
+.PremierTitre{
+    margin-top: 50px;
 }
 
 h2 {
-    font-size: 34px;
-    margin-left: 200px;
-    margin-right: 200px;
+    font-size: 30px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+    border-radius: 5px;
+    text-align: center;
+    display: block;
 }
 
 .text-box {
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 1.7;
     text-align: justify;
-    margin: 30px auto;
-    padding: 20px 40px;
-    border: 1px solid #ccc;
+    margin: 40px 150px;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
 }
 
 .text-image-container {
