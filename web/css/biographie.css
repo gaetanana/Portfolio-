@@ -32,12 +32,13 @@ h1 {
     font-size: 35px;
     background-color: rgba(255, 255, 255, 0.9);
     color: #333;
-    margin: 30px 70px;
+    margin: 30px 60px;
     padding: 20px 120px;
     box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
     border-radius: 5px;
     text-align: center;
 }
+
 h2 {
     font-size: 30px;
     color: #333;
@@ -59,16 +60,7 @@ h2 {
     align-items: center;
 }
 
-.paragrapheContenue {
-    font-size: 18px;
-    line-height: 1.7;
-    text-align: justify;
-    margin: 40px 150px;
-    padding: 20px 30px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #333;
-    border-radius: 5px;
-}
+
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 28px; /* Taille ajustée pour mobile */
@@ -134,7 +126,9 @@ h2 {
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: rgba(255, 255, 255, 0.7); /* Ajoutez un arrière-plan semi-transparent */
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: 150px;
+    margin-right: 150px;
     color: #333;
     border-radius: 5px;
 }
@@ -165,7 +159,7 @@ h2 {
     transition: transform 0.3s;
 }
 
- #moiSurUntracteur:hover, #moiSurUnStade:hover {
+#moiSurUntracteur:hover, #moiSurUnStade:hover {
     transform: scale(1.2);
 }
 .scrollTop {
