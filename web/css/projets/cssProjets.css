@@ -49,7 +49,7 @@ h2 {
 }
 
 /* Styles Spécifiques aux Projets */
-#contenueSiteEcommerce, #contenueEvote, #conteunueAventurierDuRail,#contenueSaveSync {
+#contenueSiteEcommerce, #contenueEvote, #conteunueAventurierDuRail,#contenueSaveSync,#contenueCATS {
     margin: 0 auto;
     padding: 50px;
     width: 70%;
@@ -167,7 +167,7 @@ h2 {
 
 
 
-#imgProjetVote img, #imgApplicationRail,#imgSiteVinyl,#imgProjetSaveSync  {
+#imgProjetVote img, #imgApplicationRail,#imgSiteVinyl,#imgProjetSaveSync,#imgProjetCATS  {
     width: 100%;
     height: auto;
     object-fit: cover;
