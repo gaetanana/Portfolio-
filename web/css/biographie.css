@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
 #contenueBiographie {
     margin: 0 auto;
     padding: 50px;
@@ -52,7 +53,8 @@ h2 {
     display: block;
     font-family: 'Montserrat', sans-serif;
 }
-#divTitre{
+
+#divTitre {
     margin: 50px 0;
     display: flex;
     flex-direction: column;
@@ -65,9 +67,11 @@ h2 {
     h1 {
         font-size: 28px; /* Taille ajustée pour mobile */
     }
+
     h2 {
         font-size: 24px; /* Taille ajustée pour mobile */
     }
+
     .paragrapheContenue {
         font-size: 16px; /* Taille ajustée pour mobile */
         margin: 30px 50px;
@@ -106,27 +110,28 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
-#moiSurUntracteur{
+#moiSurUntracteur {
     width: 263px;
     height: 350px;
     padding-left: 40px;
 }
-#moiSurUnStade{
+
+#moiSurUnStade {
     width: 300px;
     height: 390px;
     padding-left: 40px;
 }
 
-.div_commune{
+.div_commune {
     display: flex;
     flex-direction: column;
     margin: 30px 100px 20px;
     padding: 20px;
-    background-color:  #f2f2f2;
+    background-color: #f2f2f2;
     border-radius: 5px;
 }
 
-.paragrapheContenue{
+.paragrapheContenue {
     font-size: 1.1rem;
     line-height: 1.8;
     text-align: justify;
@@ -136,11 +141,12 @@ h2 {
     color: #333;
     border-radius: 5px;
 }
+
 .text-image-container {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    margin-bottom:20px; /* ajoute un espacement entre les conteneurs */
+    margin-bottom: 20px; /* ajoute un espacement entre les conteneurs */
 }
 
 .text-image-container p {
@@ -160,6 +166,7 @@ h2 {
 #moiSurUntracteur:hover, #moiSurUnStade:hover {
     transform: scale(1.2);
 }
+
 .scrollTop {
     position: fixed;
     bottom: 70px;
