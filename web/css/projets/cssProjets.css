@@ -36,17 +36,36 @@ h1 {
 }
 
 h2 {
+    margin: 0;
     font-size: 30px;
     color: #333;
     background: rgba(255, 255, 255, 0.9);
-    margin: 0 auto;
     padding: 20px;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragrapheContenue{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+}
+
+.div_commune{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
 }
 
 /* Styles Spécifiques aux Projets */
@@ -64,17 +83,6 @@ h2 {
     align-items: center;
 }
 
-.text-box {
-    font-size: 18px;
-    line-height: 1.7;
-    text-align: justify;
-    margin: 40px 150px;
-    padding: 20px 30px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #333;
-    border-radius: 5px;
-}
-
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 28px;
@@ -89,7 +97,7 @@ h2 {
     }
 }
 
-.text-image-container, .text-box, #logoLanguages {
+.text-image-container, #logoLanguages {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,15 +128,7 @@ h2 {
 .side-image {
     width: 100px;
 }
-
-#divBouton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.text-box button {
+button {
     font-size: 16px;
     font-weight: bold;
     padding: 10px 20px;
@@ -140,7 +140,7 @@ h2 {
     border-radius: 4px;
 }
 
-.text-box button:hover {
+button:hover {
     background-color: #45a049;
 }
 
@@ -166,8 +166,6 @@ h2 {
     opacity: 1;
 }
 
-
-
 #imgProjetVote img, #imgApplicationRail,#imgSiteVinyl,#imgProjetSaveSync,#imgProjetCATS  {
     width: 100%;
     height: auto;
@@ -178,6 +176,7 @@ h2 {
     justify-content: center;
     justify-items: center;
 }
+
 #imgProjetSaveSync img{
     margin-bottom: 20px;
     border-radius: 5px;
