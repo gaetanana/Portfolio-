@@ -41,17 +41,16 @@ h1 {
 }
 
 h2 {
+    margin: 0;
     font-size: 30px;
     color: #333;
     background: rgba(255, 255, 255, 0.9);
-    margin: 0 auto;
     padding: 20px;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(40, 217, 88, 0.92);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     display: block;
+    font-family: 'Montserrat', sans-serif;
 }
 #divTitre{
     margin: 50px 0;
@@ -118,27 +117,25 @@ h2 {
     padding-left: 40px;
 }
 
-.text-box {
-    font-size: 18px;
-    line-height: 1.7;
-    text-align: justify;
-    margin: 30px auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: rgba(255, 255, 255, 0.7);
-    margin-left: 150px;
-    margin-right: 150px;
-    color: #333;
+.div_commune{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px 20px;
+    padding: 20px;
+    background-color:  #f2f2f2;
     border-radius: 5px;
 }
 
-.text-box {
-    display: flex;
-    flex-direction: column;
+.paragrapheContenue{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
 }
-
 .text-image-container {
     display: flex;
     align-items:center;
